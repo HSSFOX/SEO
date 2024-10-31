@@ -1,0 +1,39 @@
+# -*- coding: UTF-8 -*-
+
+import re
+import datetime
+import random
+import math
+
+import requests
+from api_requests.RedisAPI import RedisDb
+import json
+import logging
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout
+from PyQt5.QtCore import Qt
+import copy
+from collections import OrderedDict
+import time
+import tldextract
+# url1 = 'http://192.168.110.110:501\\/uploadfile/2024/1016/20241016164855405.png'
+# url2 = '/uploadfile/2024/1016/20241016164855405.png'
+
+
+# domain = tldextract.extract(url1).domain
+# print(domain)
+#
+# tldextract.extract(url1).fqdn
+# print(tldextract.extract(url1).suffix)
+# print(tldextract.extract(url1).is_private)
+
+
+l = [{'kid': '937', 'sectorid': '62', 'parent': '0', 'keyword': 'Travel guide', 'pinyin': 'Travel guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '938', 'sectorid': '62', 'parent': '0', 'keyword': 'Self-driving guide', 'pinyin': 'Self-driving guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '939', 'sectorid': '62', 'parent': '0', 'keyword': 'Travel guide', 'pinyin': 'Travel guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '940', 'sectorid': '62', 'parent': '0', 'keyword': 'List of attractions', 'pinyin': 'List of attractions', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '941', 'sectorid': '62', 'parent': '0', 'keyword': 'Self-driving guide', 'pinyin': 'Self-driving guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '942', 'sectorid': '62', 'parent': '0', 'keyword': 'Recommended attractions', 'pinyin': 'Recommended attractions', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '943', 'sectorid': '62', 'parent': '0', 'keyword': 'Itinerary planning', 'pinyin': 'Itinerary planning', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '944', 'sectorid': '62', 'parent': '0', 'keyword': 'Tourism and vacation', 'pinyin': 'Tourism and vacation', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '945', 'sectorid': '62', 'parent': '0', 'keyword': 'Tourist attractions', 'pinyin': 'Tourist attractions', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '946', 'sectorid': '62', 'parent': '0', 'keyword': 'Tourist routes', 'pinyin': 'Tourist routes', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '947', 'sectorid': '62', 'parent': '0', 'keyword': 'Tourist guide', 'pinyin': 'Tourist guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '948', 'sectorid': '62', 'parent': '0', 'keyword': 'Hiking tours', 'pinyin': 'Hiking tours', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '949', 'sectorid': '62', 'parent': '0', 'keyword': 'Cheap tours', 'pinyin': 'Cheap tours', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '950', 'sectorid': '62', 'parent': '0', 'keyword': 'Global tours', 'pinyin': 'Global tours', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '951', 'sectorid': '62', 'parent': '0', 'keyword': 'Global attractions guide', 'pinyin': 'Global attractions guide', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '952', 'sectorid': '62', 'parent': '0', 'keyword': 'Recommended world attractions', 'pinyin': 'Recommended world attractions', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '953', 'sectorid': '62', 'parent': '0', 'keyword': 'Tour groups', 'pinyin': 'Tour groups', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '954', 'sectorid': '62', 'parent': '0', 'keyword': 'Travel agencies', 'pinyin': 'Travel agencies', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '955', 'sectorid': '62', 'parent': '0', 'keyword': 'Popular tourist routes', 'pinyin': 'Popular tourist routes', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '956', 'sectorid': '62', 'parent': '0', 'keyword': 'Professional travel guides', 'pinyin': 'Professional travel guides', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '957', 'sectorid': '62', 'parent': '0', 'keyword': 'Practical travel guides', 'pinyin': 'Practical travel guides', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '958', 'sectorid': '62', 'parent': '0', 'keyword': 'Comprehensive travel guides', 'pinyin': 'Comprehensive travel guides', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '959', 'sectorid': '62', 'parent': '0', 'keyword': 'Fun attractions', 'pinyin': 'Fun attractions', 'typeid': '54', 'addtime': '1729144133'}, {'kid': '960', 'sectorid': '62', 'parent': '0', 'keyword': 'How to travel the world on a budget?', 'pinyin': 'How to travel the world on a budget?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '961', 'sectorid': '62', 'parent': '0', 'keyword': 'Which countries are suitable for budget travel?', 'pinyin': 'Which countries are suitable for budget travel?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '962', 'sectorid': '62', 'parent': '0', 'keyword': 'How to travel the world on a budget?', 'pinyin': 'How to travel the world on a budget?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '963', 'sectorid': '62', 'parent': '0', 'keyword': 'Recommended attractions in popular tourist countri', 'pinyin': 'Recommended attractions in popular tourist countries around the world', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '964', 'sectorid': '62', 'parent': '0', 'keyword': 'Professional travel guide sharing?', 'pinyin': 'Professional travel guide sharing?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '965', 'sectorid': '62', 'parent': '0', 'keyword': 'What attractions in the world must be visited?', 'pinyin': 'What attractions in the world must be visited?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '966', 'sectorid': '62', 'parent': '0', 'keyword': 'How much does it cost to travel by car?', 'pinyin': 'How much does it cost to travel by car?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '967', 'sectorid': '62', 'parent': '0', 'keyword': 'Where is the best place to go on vacation?', 'pinyin': 'Where is the best place to go on vacation?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '968', 'sectorid': '62', 'parent': '0', 'keyword': 'How to travel by car?', 'pinyin': 'How to travel by car?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '969', 'sectorid': '62', 'parent': '0', 'keyword': 'How to travel on a budget?', 'pinyin': 'How to travel on a budget?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '970', 'sectorid': '62', 'parent': '0', 'keyword': 'How to hike?', 'pinyin': 'How to hike?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '971', 'sectorid': '62', 'parent': '0', 'keyword': 'How to plan a travel route?', 'pinyin': 'How to plan a travel route?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '972', 'sectorid': '62', 'parent': '0', 'keyword': 'What are some fun countries in the world?', 'pinyin': 'What are some fun countries in the world?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '973', 'sectorid': '62', 'parent': '0', 'keyword': 'Which country is good for a vacation?', 'pinyin': 'Which country is good for a vacation?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '974', 'sectorid': '62', 'parent': '0', 'keyword': 'How much money do you need to prepare for a self-d', 'pinyin': 'How much money do you need to prepare for a self-driving tour?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '975', 'sectorid': '62', 'parent': '0', 'keyword': 'How to travel around the world alone?', 'pinyin': 'How to travel around the world alone?', 'typeid': '59', 'addtime': '1729144355'}, {'kid': '976', 'sectorid': '62', 'parent': '0', 'keyword': 'What do you need to prepare for a trip?', 'pinyin': 'What do you need to prepare for a trip?', 'typeid': '59', 'addtime': '1729144355'}]
+
+s = len(l) // 2
+print(s)
+print(len(l))
+
+k = {'keyword': [ele["keyword"] for ele in l[:s]],
+        'keywords': [ele['keyword'] for ele in l[s:]]}
+print(k['keyword'])
+print(k['keywords'])

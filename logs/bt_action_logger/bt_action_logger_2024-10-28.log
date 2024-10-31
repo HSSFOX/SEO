@@ -1,0 +1,50 @@
+2024-10-28 23:31:09 - 正在初始化已有站点栏目信息！
+2024-10-28 23:31:23 - 创建宝塔分类成功！分类名: 1730129482
+2024-10-28 23:31:37 - Create the website [ mirajornal.com,geozigzag.com,hoodiabalance.com ] successfully
+2024-10-28 23:31:39 - 批量添加站点入分类成功！
+2024-10-28 23:31:41 - 已成功删除临时分类 1730129482
+2024-10-28 23:31:42 - 已添加['mirajornal.com', 'geozigzag.com', 'hoodiabalance.com']入当前网站分类 Default category
+2024-10-28 23:31:44 - statics.zip 文件上传成功！
+2024-10-28 23:31:45 - /www/wwwroot/statics.zip 解压成功
+2024-10-28 23:31:47 - /www/wwwroot/statics.zip 解压成功
+2024-10-28 23:31:48 - /www/wwwroot/statics.zip 解压成功
+2024-10-28 23:31:49 - /www/wwwroot/statics.zip File moved to recycle bin
+2024-10-28 23:31:51 - 备份MySql移动至备份目录
+2024-10-28 23:32:03 - hoodiabalance.com 恢复数据库成功！
+2024-10-28 23:32:04 - hoodiabalance.com 数据库配置文件成功！
+2024-10-28 23:32:05 - /www/wwwroot/hoodiabalance.com/2024-08-10_14-56-12_mysql_data.sql File moved to recycle bin
+2024-10-28 23:32:16 - geozigzag.com 恢复数据库成功！
+2024-10-28 23:32:17 - geozigzag.com 数据库配置文件成功！
+2024-10-28 23:32:18 - /www/wwwroot/geozigzag.com/2024-08-10_14-56-12_mysql_data.sql File moved to recycle bin
+2024-10-28 23:32:28 - mirajornal.com 恢复数据库成功！
+2024-10-28 23:32:29 - mirajornal.com 数据库配置文件成功！
+2024-10-28 23:32:30 - /www/wwwroot/mirajornal.com/2024-08-10_14-56-12_mysql_data.sql File moved to recycle bin
+2024-10-28 23:32:31 - /www/backup/database/2024-08-10_14-56-12_mysql_data.sql File moved to recycle bin
+2024-10-28 23:32:34 -  模板文件上传成功
+2024-10-28 23:32:36 - /www/wwwroot//20241028151913753.zip 解压成功
+2024-10-28 23:32:36 - 20241028151913753.zip 模板解压完毕
+2024-10-28 23:32:37 - hoodiabalance.com 上传静态规则成功
+2024-10-28 23:32:38 - hoodiabalance.com 网站TDK设置成功
+2024-10-28 23:32:39 - hoodiabalance.com 栏目添加成功
+2024-10-28 23:32:39 - hoodiabalance.com 网站备案设置更新成功
+2024-10-28 23:32:41 -  模板文件上传成功
+2024-10-28 23:32:42 - /www/wwwroot//20241028151831690.zip 解压成功
+2024-10-28 23:32:42 - 20241028151831690.zip 模板解压完毕
+2024-10-28 23:32:43 - geozigzag.com 上传静态规则成功
+2024-10-28 23:32:44 - geozigzag.com 网站TDK设置成功
+2024-10-28 23:32:45 - geozigzag.com 栏目添加成功
+2024-10-28 23:32:45 - geozigzag.com 网站备案设置更新成功
+2024-10-28 23:32:47 -  模板文件上传成功
+2024-10-28 23:32:48 - /www/wwwroot//20241028151600821.zip 解压成功
+2024-10-28 23:32:48 - 20241028151600821.zip 模板解压完毕
+2024-10-28 23:32:49 - mirajornal.com 上传静态规则成功
+2024-10-28 23:32:50 - mirajornal.com 网站TDK设置成功
+2024-10-28 23:32:51 - mirajornal.com 栏目添加成功
+2024-10-28 23:32:51 - mirajornal.com 网站备案设置更新成功
+2024-10-28 23:32:53 - /www/wwwroot/20241028151913753.zip File moved to recycle bin
+2024-10-28 23:32:53 - /www/wwwroot/20241028151831690.zip File moved to recycle bin
+2024-10-28 23:32:54 - /www/wwwroot/20241028151600821.zip File moved to recycle bin
+2024-10-28 23:32:54 - 所有任务执行完毕！
+2024-10-28 23:33:00 - hoodiabalance.com 添加域名配置入后台成功
+2024-10-28 23:33:01 - geozigzag.com 添加域名配置入后台成功
+2024-10-28 23:33:01 - mirajornal.com 添加域名配置入后台成功

@@ -1,0 +1,2 @@
+2024-09-13 11:10:07 - 'AutoPublishment' object has no attribute 'main_ui'
+2024-09-13 11:40:43 - the JSON object must be str, bytes or bytearray, not list

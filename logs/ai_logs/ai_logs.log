@@ -1,0 +1,391 @@
+2024-09-20 18:41:06 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002281F6379A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:41:08 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002281F637CA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:41:10 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002281F637730>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:41:13 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002281F66AA30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:41:15 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002281F66ADC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:48:28 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020A94613610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:48:30 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020A94613D90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:50:16 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000244D5216130>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-09-20 18:50:18 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000244D52168E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:00:00 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Max retries exceeded with url: /chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014AA87CBA30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:00:02 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Max retries exceeded with url: /chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014AA87F7EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:00:04 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Max retries exceeded with url: /chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014AA87CB760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:00:06 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Max retries exceeded with url: /chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014AA8806C40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:00:08 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Max retries exceeded with url: /chat/completions (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014AA8806EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2024-10-09 17:01:56 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Read timed out. (read timeout=20)
+2024-10-09 17:02:17 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Read timed out. (read timeout=20)
+2024-10-09 17:06:39 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Read timed out. (read timeout=20)
+2024-10-10 20:37:12 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Read timed out. (read timeout=20)
+2024-10-10 20:38:03 - HTTPSConnectionPool(host='api.perplexity.ai', port=443): Read timed out. (read timeout=20)
+2024-10-26 09:17:22 - Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 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\r\n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'
+2024-10-26 09:19:49 - Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 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\r\n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'
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 236, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_headers(headers)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\models.py", line 490, in prepare_headers
+    check_header_validity(header)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\utils.py", line 1042, in check_header_validity
+    _validate_header_part(header, value, 1)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\utils.py", line 1058, in _validate_header_part
+    raise InvalidHeader(
+requests.exceptions.InvalidHeader: Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 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\r\n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'
+2024-10-26 09:25:19 - Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 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\r\n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'
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 237, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_headers(headers)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\models.py", line 490, in prepare_headers
+    check_header_validity(header)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\utils.py", line 1042, in check_header_validity
+    _validate_header_part(header, value, 1)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\utils.py", line 1058, in _validate_header_part
+    raise InvalidHeader(
+requests.exceptions.InvalidHeader: Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'Bearer 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\r\n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'
+2024-10-26 09:33:33 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 238, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:33:34 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 238, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:33:34 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 238, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:33:35 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 238, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:33:35 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 238, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:37:49 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 242, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2024-10-26 09:37:50 - HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\project\python38\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\project\python38\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\project\python38\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Github\SeoTool\backend\AI_write\chatgpt_model.py", line 242, in get_response
+    response = requests.post(url, headers=headers, json=data, proxies=self.proxy, timeout=5).json()  # 使用代理
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\ServerManagement\.venv\lib\site-packages\requests\adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))

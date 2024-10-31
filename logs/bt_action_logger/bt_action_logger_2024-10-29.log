@@ -1,0 +1,86 @@
+2024-10-29 19:19:19 - 正在初始化已有站点栏目信息！
+2024-10-29 19:19:52 - elitefitnessmentoring.com 域名无法ping通，已删除！请手动确认该域名已过白！
+2024-10-29 19:20:29 - nc3fitness.com 域名无法ping通，已删除！请手动确认该域名已过白！
+2024-10-29 19:21:18 - medinapolizzi.com 域名无法ping通，已删除！请手动确认该域名已过白！
+2024-10-29 19:21:50 - gimnasiofashiongym.com 域名无法ping通，已删除！请手动确认该域名已过白！
+2024-10-29 19:22:38 - natsios-young.com 域名无法ping通，已删除！请手动确认该域名已过白！
+2024-10-29 19:22:40 - 创建宝塔分类成功！分类名: 1730200959
+2024-10-29 19:23:04 - Create the website [ jonwhiddon.com,breadycricketclub.com,bestfitnesskickboxing.com,lookarab.com,coseyborda.com ] successfully
+2024-10-29 19:23:07 - 批量添加站点入分类成功！
+2024-10-29 19:23:09 - 已成功删除临时分类 1730200959
+2024-10-29 19:23:10 - 已添加['jonwhiddon.com', 'breadycricketclub.com', 'bestfitnesskickboxing.com', 'lookarab.com', 'coseyborda.com']入当前网站分类 默認類別
+2024-10-29 19:23:12 - phpcms.zip 文件上传成功！
+2024-10-29 19:23:13 - /www/wwwroot/phpcms.zip 解压成功
+2024-10-29 19:23:15 - /www/wwwroot/phpcms.zip 解压成功
+2024-10-29 19:23:16 - /www/wwwroot/phpcms.zip 解压成功
+2024-10-29 19:23:18 - /www/wwwroot/phpcms.zip 解压成功
+2024-10-29 19:23:20 - /www/wwwroot/phpcms.zip 解压成功
+2024-10-29 19:23:20 - /www/wwwroot/phpcms.zip 文件移至回收箱
+2024-10-29 19:23:22 - 备份MySql移动至备份目录
+2024-10-29 19:23:33 - coseyborda.com 恢复数据库成功！
+2024-10-29 19:23:34 - coseyborda.com 数据库配置文件成功！
+2024-10-29 19:23:35 - /www/wwwroot/coseyborda.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:23:45 - lookarab.com 恢复数据库成功！
+2024-10-29 19:23:47 - lookarab.com 数据库配置文件成功！
+2024-10-29 19:23:48 - /www/wwwroot/lookarab.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:23:59 - bestfitnesskickboxing.com 恢复数据库成功！
+2024-10-29 19:24:00 - bestfitnesskickboxing.com 数据库配置文件成功！
+2024-10-29 19:24:01 - /www/wwwroot/bestfitnesskickboxing.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:24:12 - breadycricketclub.com 恢复数据库成功！
+2024-10-29 19:24:13 - breadycricketclub.com 数据库配置文件成功！
+2024-10-29 19:24:14 - /www/wwwroot/breadycricketclub.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:24:25 - jonwhiddon.com 恢复数据库成功！
+2024-10-29 19:24:26 - jonwhiddon.com 数据库配置文件成功！
+2024-10-29 19:24:27 - /www/wwwroot/jonwhiddon.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:24:28 - /www/backup/database/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱
+2024-10-29 19:24:30 -  模板文件上传成功
+2024-10-29 19:24:32 - /www/wwwroot//20241028151728788.zip 解压成功
+2024-10-29 19:24:32 - 20241028151728788.zip 模板解压完毕
+2024-10-29 19:24:33 - coseyborda.com 上传静态规则成功
+2024-10-29 19:24:33 - coseyborda.com 网站TDK设置成功
+2024-10-29 19:24:35 - coseyborda.com 栏目添加成功
+2024-10-29 19:24:36 - coseyborda.com 网站备案设置更新成功
+2024-10-29 19:24:37 - coseyborda.com 添加域名配置入后台成功
+2024-10-29 19:24:37 - coseyborda.com 任务执行完毕！
+2024-10-29 19:24:38 -  模板文件上传成功
+2024-10-29 19:24:40 - /www/wwwroot//20241028151800508.zip 解压成功
+2024-10-29 19:24:40 - 20241028151800508.zip 模板解压完毕
+2024-10-29 19:24:41 - lookarab.com 上传静态规则成功
+2024-10-29 19:24:42 - lookarab.com 网站TDK设置成功
+2024-10-29 19:24:43 - lookarab.com 栏目添加成功
+2024-10-29 19:24:43 - lookarab.com 网站备案设置更新成功
+2024-10-29 19:24:44 - lookarab.com 添加域名配置入后台成功
+2024-10-29 19:24:44 - lookarab.com 任务执行完毕！
+2024-10-29 19:24:45 -  模板文件上传成功
+2024-10-29 19:24:46 - /www/wwwroot//20241028151819495.zip 解压成功
+2024-10-29 19:24:46 - 20241028151819495.zip 模板解压完毕
+2024-10-29 19:24:47 - bestfitnesskickboxing.com 上传静态规则成功
+2024-10-29 19:24:51 - bestfitnesskickboxing.com 网站TDK设置成功
+2024-10-29 19:24:53 - bestfitnesskickboxing.com 栏目添加成功
+2024-10-29 19:24:53 - bestfitnesskickboxing.com 网站备案设置更新成功
+2024-10-29 19:24:53 - bestfitnesskickboxing.com 添加域名配置入后台成功
+2024-10-29 19:24:53 - bestfitnesskickboxing.com 任务执行完毕！
+2024-10-29 19:24:55 -  模板文件上传成功
+2024-10-29 19:24:56 - /www/wwwroot//20241028151831690.zip 解压成功
+2024-10-29 19:24:56 - 20241028151831690.zip 模板解压完毕
+2024-10-29 19:24:57 - breadycricketclub.com 上传静态规则成功
+2024-10-29 19:24:59 - breadycricketclub.com 网站TDK设置成功
+2024-10-29 19:25:00 - breadycricketclub.com 栏目添加成功
+2024-10-29 19:25:00 - breadycricketclub.com 网站备案设置更新成功
+2024-10-29 19:25:01 - breadycricketclub.com 添加域名配置入后台成功
+2024-10-29 19:25:01 - breadycricketclub.com 任务执行完毕！
+2024-10-29 19:25:03 -  模板文件上传成功
+2024-10-29 19:25:04 - /www/wwwroot//20241028151745531.zip 解压成功
+2024-10-29 19:25:04 - 20241028151745531.zip 模板解压完毕
+2024-10-29 19:25:05 - jonwhiddon.com 上传静态规则成功
+2024-10-29 19:25:06 - jonwhiddon.com 网站TDK设置成功
+2024-10-29 19:25:07 - jonwhiddon.com 栏目添加成功
+2024-10-29 19:25:07 - jonwhiddon.com 网站备案设置更新成功
+2024-10-29 19:25:07 - jonwhiddon.com 添加域名配置入后台成功
+2024-10-29 19:25:07 - jonwhiddon.com 任务执行完毕！
+2024-10-29 19:25:08 - /www/wwwroot/20241028151728788.zip 文件移至回收箱
+2024-10-29 19:25:09 - /www/wwwroot/20241028151800508.zip 文件移至回收箱
+2024-10-29 19:25:10 - /www/wwwroot/20241028151819495.zip 文件移至回收箱
+2024-10-29 19:25:11 - /www/wwwroot/20241028151831690.zip 文件移至回收箱
+2024-10-29 19:25:12 - /www/wwwroot/20241028151745531.zip 文件移至回收箱
+2024-10-29 19:25:12 - 所有任务执行完毕！

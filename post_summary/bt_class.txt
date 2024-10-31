@@ -1,0 +1,156 @@
+import requests
+import hashlib
+import time
+import json
+import os
+
+class Bt:
+    def __init__(self, bt_panel=None, bt_key=None):
+        # 初始化宝塔面板地址和API密钥
+        self.BT_PANEL = bt_panel
+        self.BT_KEY = bt_key
+        # 配置项
+        self.config = {
+        # 自定义处理类
+        'Public_config': '/panel/public/get_public_config', #: 读取面板设置
+        'getSiteCat': '/site?action=get_site_types', #: 获取站点分类列表
+        'selectCat' :'/datalist/data/get_data_list', #: 获取站点选择分类列表
+        'uploadFile' :'/files?action=upload', #: 文件上传
+        'CopyFile' :'/files?action=CopyFile', #: 复制文件
+        'UnZip' :'/files?action=UnZip', #: 复制文件
+        'addSites' :'/site?action=create_website_multiple', #: 批量添加网站
+        'newFile' :'/files?action=CreateFile', #: 新建文件
+        'SaveFileBody' :'/files?action=SaveFileBody', #: 保存or修改文件or伪静态规则内容(保存文件内容)
+        'DeleteFile' :'/files?action=DeleteFile', #: 删除文件
+        'MvFile' :'/files?action=MvFile', #: 移动文件 or 重命名
+        }
+
+    def get_key_data(self):
+        # 构造带有签名的关联数组
+        now_time = int(time.time())
+        p_data = {
+            'request_token': hashlib.md5(
+                (str(now_time) + hashlib.md5(self.BT_KEY.encode()).hexdigest()).encode()).hexdigest(),
+            'request_time': now_time
+        }
+        return p_data
+
+    def http_post_cookie(self, url, data, timeout=60):
+
+        # 发起POST请求
+        header = {}
+        header['Accept'] = '*/*'
+        header['Accept-Encoding'] = 'zh-CN,zh;q=0.9'
+        header['Connection'] = 'keep-alive'
+        response = requests.post(url, headers=header, data=data, files=data, timeout=timeout)
+        print(response.headers)
+
+        #print(response.text)
+        # 解析JSON数据
+        return response.text
+
+
+   #return json.loads(result)
+
+    def common_request(self, params, config, default_params, preprocess=None):
+        # 通用请求处理
+        try:
+            params = {**default_params, **params}
+            if preprocess:
+                params = preprocess(params)
+            url = self.BT_PANEL + self.config[config]
+            result = self.http_post_cookie(url, {**self.get_key_data(), **params})
+            return json.loads(result)
+        except Exception as e:
+            return {'error': str(e)}
+#################################"""方法"""#################################
+    def upload_file(self, params={}):
+        """上传文件"""
+        default_params = {'f_path': '/www/wwwroot/', 'f_name': '', 'f_size': 0, 'f_start': 0, 'blob': ''}
+        params = {**default_params, **params}
+        url = self.BT_PANEL + '/files?action=upload_file_exists'
+        p_data = {**self.get_key_data(), 'filename': params['f_name']}
+        data = json.loads(self.http_post_cookie(url, p_data))
+        # 如果文件存在，取消上传任务
+        if data['status'] == True:
+            return data
+        url = self.BT_PANEL + self.config["uploadFile"]
+
+        params['blob'] = (params['f_name'], open(os.path.join(params['blob']), 'rb+'), 'application/octet-stream')
+
+        return json.loads(self.http_post_cookie(url, {**self.get_key_data(), **params}))
+
+    def get_public_config(self, params={}):
+        """读取面板设置"""
+        return self.common_request(params, "Public_config", {})
+
+    def get_site_cat(self, params={}):
+        """获取网站分类"""
+        return self.common_request(params, "getSiteCat", {})
+
+    def select_cat(self, params={}):
+        """选取网站分类"""
+        default_params = {'page': 1, 'limit': 100, 'search': '', 'type': '-1', 'table': 'sites'}
+        return self.common_request(params, "selectCat", default_params)
+
+    def copy_file(self, params={}):
+        """复制文件"""
+        return self.common_request(params, "CopyFile", {'sfile': '', 'dfile': ''})
+
+    def unzip(self, params={}):
+        """压缩包解压"""
+        return self.common_request(params, "UnZip",
+                                   {'sfile': '', 'dfile': '', 'type': '', 'coding': 'UTF-8', 'password': ''})
+
+    def add_sites(self, params={}):
+        """批量添加网站"""
+        default_params = {'websites_content': '', 'create_type': 'txt'}
+        params = {**default_params, **params}
+        params['websites_content'] = params['websites_content'].replace("\\", "")
+        return self.common_request(params, "addSites", default_params)
+
+    def new_file(self, params={}):
+        """新建文件"""
+        default_params = {'path': '/www/wwwroot/', 'file_name': '123.txt'}
+        params = {**default_params, **params}
+        params['path'] = params['path'] + params['file_name']
+        del params['file_name']
+        return self.common_request(params, "newFile", default_params)
+
+    def save_file_body(self, params={}):
+        """保存伪静态规则内容(保存文件内容or修改内容)"""
+        return self.common_request(params, "SaveFileBody",
+                                   {'path': '/www/wwwroot/123.txt', 'data': '123', 'encoding': 'utf-8',
+                                    'st_mtime': 1719489254, 'force': 0})
+
+    def delete_file(self, params={}):
+        """删除文件"""
+        return self.common_request(params, "DeleteFile", {'path': ''})
+
+    def move_file(self, params={}):
+        """移动文件 or 重命名"""
+        default_params = {'sfile': '', 'dfile': ''}
+        params = {**default_params, **params}
+        params['rename'] = params.get('rename', True)
+        return self.common_request(params, "MvFile", default_params)
+
+# 使用方法示例
+bt = Bt(bt_panel="http://1.13.160.70:36800", bt_key="xsJeTajXsNtckZSD8k0ryx3SFEa0HWcY")
+#print(bt.delete_file({'path': 'MvFile'}))
+#print(bt.delete_file({'path': '/www/wwwroot/新建文件'}))
+fizl = "E:\\Desktop\\词库.txt"
+ypath = "/www/wwwroot/default/"
+
+#选择分类
+
+#上传文件
+print(bt.upload_file({'f_path': ypath, 'f_name': ypath+os.path.basename(fizl), 'f_size': os.path.getsize(fizl), 'f_start': 0, 'blob': fizl}))
+#创建网站test
+#print(bt.add_sites({'websites_content': '["6.com|1|0|0|0","7.com|1|0|0|0"]'}))
+#获取创建的网站
+#print(bt.select_cat({'type': '0'}))
+
+#创建网站归类到选择类目
+
+#这里为循环 br 解压缩 设置SEO分类，设置适配程序,选择模板库
+

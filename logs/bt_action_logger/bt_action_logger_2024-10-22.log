@@ -1,0 +1,67 @@
+2024-10-22 19:13:58 - 正在初始化已有站点栏目信息！
+2024-10-22 19:14:09 - 创建宝塔分类成功！分类名: 1729595648
+2024-10-22 19:14:28 - 成功創建網站[aauuknuklodge.com,jennacyprus.com,heimatchalets.com,peacockcabins.com]
+2024-10-22 19:14:30 - 批量添加站点入分类成功！
+2024-10-22 19:14:31 - 已成功删除临时分类 1729595648
+2024-10-22 19:14:32 - 已添加['aauuknuklodge.com', 'jennacyprus.com', 'heimatchalets.com', 'peacockcabins.com']入当前网站分类 默認類別
+2024-10-22 19:14:34 - statics.zip 文件上传成功！
+2024-10-22 19:14:36 - /www/wwwroot/statics.zip 解压成功
+2024-10-22 19:14:37 - /www/wwwroot/statics.zip 解压成功
+2024-10-22 19:14:38 - /www/wwwroot/statics.zip 解压成功
+2024-10-22 19:14:41 - /www/wwwroot/statics.zip 解压成功
+2024-10-22 19:14:42 - /www/wwwroot/statics.zip 文件移至回收箱！
+2024-10-22 19:14:44 - 备份MySql移动至备份目录
+2024-10-22 19:14:54 - peacockcabins.com 恢复数据库成功！
+2024-10-22 19:14:56 - peacockcabins.com 数据库配置文件成功！
+2024-10-22 19:14:57 - /www/wwwroot/peacockcabins.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱！
+2024-10-22 19:15:07 - heimatchalets.com 恢复数据库成功！
+2024-10-22 19:15:09 - heimatchalets.com 数据库配置文件成功！
+2024-10-22 19:15:09 - /www/wwwroot/heimatchalets.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱！
+2024-10-22 19:15:20 - jennacyprus.com 恢复数据库成功！
+2024-10-22 19:15:21 - jennacyprus.com 数据库配置文件成功！
+2024-10-22 19:15:22 - /www/wwwroot/jennacyprus.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱！
+2024-10-22 19:15:32 - aauuknuklodge.com 恢复数据库成功！
+2024-10-22 19:15:34 - aauuknuklodge.com 数据库配置文件成功！
+2024-10-22 19:15:35 - /www/wwwroot/aauuknuklodge.com/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱！
+2024-10-22 19:15:35 - /www/backup/database/2024-08-10_14-56-12_mysql_data.sql 文件移至回收箱！
+2024-10-22 19:15:37 -  模板文件上传成功
+2024-10-22 19:15:39 - /www/wwwroot//20241018144907758.zip 解压成功
+2024-10-22 19:15:39 - 20241018144907758.zip 模板解压完毕
+2024-10-22 19:15:40 - peacockcabins.com 上传静态规则成功
+2024-10-22 19:15:41 - peacockcabins.com 网站TDK设置成功
+2024-10-22 19:15:43 - peacockcabins.com 栏目添加成功
+2024-10-22 19:15:43 - peacockcabins.com 网站备案设置更新成功
+2024-10-22 19:15:44 - peacockcabins.com 添加域名配置入后台成功
+2024-10-22 19:15:44 - peacockcabins.com 任务执行完毕！
+2024-10-22 19:15:47 -  模板文件上传成功
+2024-10-22 19:15:48 - /www/wwwroot//20241018144803270.zip 解压成功
+2024-10-22 19:15:48 - 20241018144803270.zip 模板解压完毕
+2024-10-22 19:15:49 - heimatchalets.com 上传静态规则成功
+2024-10-22 19:15:51 - heimatchalets.com 网站TDK设置成功
+2024-10-22 19:15:53 - heimatchalets.com 栏目添加成功
+2024-10-22 19:15:53 - heimatchalets.com 网站备案设置更新成功
+2024-10-22 19:15:53 - heimatchalets.com 添加域名配置入后台成功
+2024-10-22 19:15:53 - heimatchalets.com 任务执行完毕！
+2024-10-22 19:15:55 -  模板文件上传成功
+2024-10-22 19:15:56 - /www/wwwroot//20241018144835297.zip 解压成功
+2024-10-22 19:15:56 - 20241018144835297.zip 模板解压完毕
+2024-10-22 19:15:57 - jennacyprus.com 上传静态规则成功
+2024-10-22 19:16:00 - jennacyprus.com 网站TDK设置成功
+2024-10-22 19:16:01 - jennacyprus.com 栏目添加成功
+2024-10-22 19:16:02 - jennacyprus.com 网站备案设置更新成功
+2024-10-22 19:16:02 - jennacyprus.com 添加域名配置入后台成功
+2024-10-22 19:16:02 - jennacyprus.com 任务执行完毕！
+2024-10-22 19:16:13 -  模板文件上传成功
+2024-10-22 19:16:14 - /www/wwwroot//20241018144819842.zip 解压成功
+2024-10-22 19:16:14 - 20241018144819842.zip 模板解压完毕
+2024-10-22 19:16:15 - aauuknuklodge.com 上传静态规则成功
+2024-10-22 19:16:21 - aauuknuklodge.com 网站TDK设置成功
+2024-10-22 19:16:23 - aauuknuklodge.com 栏目添加成功
+2024-10-22 19:16:23 - aauuknuklodge.com 网站备案设置更新成功
+2024-10-22 19:16:23 - aauuknuklodge.com 添加域名配置入后台成功
+2024-10-22 19:16:23 - aauuknuklodge.com 任务执行完毕！
+2024-10-22 19:16:24 - /www/wwwroot/20241018144907758.zip 文件移至回收箱！
+2024-10-22 19:16:25 - /www/wwwroot/20241018144803270.zip 文件移至回收箱！
+2024-10-22 19:16:25 - /www/wwwroot/20241018144835297.zip 文件移至回收箱！
+2024-10-22 19:16:29 - /www/wwwroot/20241018144819842.zip 文件移至回收箱！
+2024-10-22 19:16:29 - 所有任务执行完毕！
